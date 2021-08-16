@@ -344,6 +344,18 @@
       }
     },
     {
+      "name": "Redish",
+      "scope": [
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.type.class.ts"
+      ],
+      "settings": {
+        "foreground": "#cc685b",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Brown italic",
       "scope": [
         "variable.other.jsdoc",
@@ -416,19 +428,10 @@
         "meta.return.type.arrow.tsx",
         "support.type.primitive.tsx",
         "support.type.primitive.ts"
-        // "entity.name.type.module.tsx",
-        // "entity.name.type.interface",
-        // "meta.return.type.arrow.tsx",
-        // "support.type.primitive.tsx",
-        // "entity.name.type.ts",
-        // "entity.name.type.tsx"
-        //"meta.type.annotation.tsx",
-        // "entity.name.type.class",
-        //"entity.name.type.module"
       ],
       "settings": {
-        "foreground": "#75918e",
-        // "foreground": "#507874",
+        "foreground": "#7898a7",
+        //"foreground": "#507874",
         "fontStyle": "bold"
       }
     },

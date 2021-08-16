@@ -1,6 +1,6 @@
 {
-  "name": "webstorm-darcula-custom",
-  "displayName": "WebStorm Darcula Theme Custom",
+  "name": "webstorm-darcula-types",
+  "displayName": "WebStorm Darcula Types Theme",
   "description": "As close as possible to IntelliJ WebStorm Darcula theme, (and some improvements)",
   "publisher": "nilokillian",
   "author": {
@@ -22,6 +22,7 @@
     "darcula",
     "intellij",
     "jetbrains",
+    "types",
     "idea"
   ],
   "contributes": {
@@ -29,7 +30,7 @@
       {
         "label": "Webstorm Darcula",
         "uiTheme": "vs-dark",
-        "path": "./themes/Webstorm Darcula-color-theme.json"
+        "path": "./themes/Webstorm Darcula Types-color-theme.json"
       }
     ]
   },
@@ -40,17 +41,17 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imekachi/webstorm-darcula/issues"
+    "url": "https://github.com/nilokillian/vscode-theme-webstorm-darcula-types-types/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/imekachi/webstorm-darcula.git"
+    "url": "https://github.com/nilokillian/vscode-theme-webstorm-darcula-types-types.git"
   },
-  "homepage": "https://github.com/imekachi/webstorm-darcula",
+  "homepage": "https://github.com/nilokillian/vscode-theme-webstorm-darcula-types-types",
   "__metadata": {
     "id": "b994340b-4d9e-477d-baa0-2f915f573e63",
-    "publisherDisplayName": "imekachi",
-    "publisherId": "1597437d-a360-4ad9-b4da-3bd2827846d4"
+    "publisherDisplayName": "nilokillian",
+    "publisherId": "1597437d-a360-4ad9-b4da-3bd2827846d5"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
