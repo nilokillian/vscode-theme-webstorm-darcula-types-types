@@ -307,7 +307,11 @@
     },
     {
       "name": "YellowGreenish",
-      "scope": ["punctuation.decorator", "meta.decorator entity.name.function"],
+      "scope": [
+                "punctuation.decorator", 
+                "meta.decorator entity.name.function", 
+                "meta.decorator.ts entity.name.function.ts"
+              ],
       "settings": {
         "foreground": "#BBB529",
         "fontStyle": ""
