@@ -165,7 +165,7 @@
     "titleBar.inactiveBackground": "#3b3f41",
     "widget.shadow": "#1a1a1aaa"
   },
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
   "semanticTokenColors": {
     "type": {
       "foreground": "#A9B7C6",
@@ -260,14 +260,7 @@
         "fontStyle": ""
       }
     },
-    {
-      "name": "Yellow",
-      "scope": ["entity.name.function", "support.function"],
-      "settings": {
-        "foreground": "#FFC66D",
-        "fontStyle": ""
-      }
-    },
+
     {
       "name": "Yellow little faded",
       "scope": [
@@ -310,10 +303,22 @@
       "scope": [
                 "punctuation.decorator", 
                 "meta.decorator entity.name.function", 
-                "meta.decorator.ts entity.name.function.ts"
+                "meta.decorator.ts entity.name.function.ts",
+    
+                
+
+
               ],
       "settings": {
         "foreground": "#BBB529",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Yellow",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#FFC66D",
         "fontStyle": ""
       }
     },
